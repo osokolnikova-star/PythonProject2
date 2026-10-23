@@ -1,0 +1,6 @@
+input("Введите плейлист папы:")
+name = input(5)
+name = input(4)
+name = input(3)
+name = input(2)
+name = input(1)

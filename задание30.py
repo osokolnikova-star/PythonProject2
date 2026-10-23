@@ -1,0 +1,11 @@
+a = float(input())
+b = float(input())
+c = float(input())
+n = float(input())
+m = float(input())
+p = min(2.375 , max(0 , (b/a-0.3) * 5))
+f = min(2.375 , max(0 , (c/a-3) *  0.25))
+l = min(2.375 , max(0 , (n/a) * 20))
+k = min(2.375 , max(0 , 2.375-m/a* 25))
+t = ((p+f+l+k)/6)*100
+print(t)

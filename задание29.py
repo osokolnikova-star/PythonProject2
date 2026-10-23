@@ -1,0 +1,11 @@
+import math
+a = float(input(""))
+b = float(input(""))
+c = float(input(""))
+cosa = (b**2 + c**2 - a**2) / (2*b*c)
+cosb = (a**2 + c**2 - b**2) / (2*a*c)
+cosc = (b**2 + a**2 - c**2) / (2*a*b)
+cos_a = math.degrees(math.acos(cosa))
+cos_b = math.degrees(math.acos(cosb))
+cos_c = math.degrees(math.acos(cosc))
+print(f"{cos_a}, {cos_b}, {cos_c}")
